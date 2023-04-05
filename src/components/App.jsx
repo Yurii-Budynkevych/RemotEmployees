@@ -1,9 +1,6 @@
 import "./App.css";
+import { MainPage } from "../pages/MainPage";
 
 export const App = () => {
-  return (
-    <div>
-      <p>Edit</p>
-    </div>
-  );
+  return <MainPage />;
 };
