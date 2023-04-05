@@ -1,4 +1,5 @@
 .hero-section {
+    position: relative;
     height: 800px;
     background-image: url("../img/yasintha-perera-W6lQ5zFV8xQ-unsplash\ \(1\).jpg");
     background-size: cover;
