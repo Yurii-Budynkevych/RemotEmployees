@@ -2,6 +2,7 @@ import "./MainPage.css";
 import { Header } from "../components/Header/Header";
 import { ReadMoreBtn } from "../components/Btn/Btn";
 import { SideBar } from "../components/SideBar/SideBar";
+import { ScrollPanel } from "../components/ScrollPanel/ScrollPanel";
 
 export const MainPage = () => {
   return (
@@ -19,6 +20,10 @@ export const MainPage = () => {
           <ReadMoreBtn />
         </div>
         <SideBar />
+      </section>
+
+      <section className="featured-section">
+        <ScrollPanel />
       </section>
     </>
   );

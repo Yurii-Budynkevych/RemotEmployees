@@ -20,3 +20,8 @@
     font-size: 18px;
        
 }
+
+.featured-section {
+    height: 800px;
+    background-color: rgb(40, 38, 38);
+}
