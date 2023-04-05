@@ -1,3 +1,21 @@
 .hero-section {
+    height: 800px;
     background-image: url("../img/yasintha-perera-W6lQ5zFV8xQ-unsplash\ \(1\).jpg");
+    background-size: cover;
+}
+.hero-container {
+    width: 400px;
+    margin: 200px 0 0 300px;
+}
+.hero-title {
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 47px;
+    font-weight: bold;
+}
+.hero-text {
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 18px;
+       
 }
