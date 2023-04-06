@@ -1,4 +1,6 @@
 .featured-section-aside {
+    position: absolute;
+    top: 80px;
     width: 200px;
     padding-left: 100px;
 }
@@ -14,6 +16,7 @@
 }
 .featured-section-link {
     position: relative;
+    margin-left: 50px;
     color: #fff;
     font-size: 14px;
 }
@@ -28,4 +31,41 @@
 
 
     background: #fff;
+}
+
+.featured-section-btnBox {
+    display: flex;
+    margin-left: 300px;
+}
+.featured-section-btnDescr {
+    margin-left: 50px;
+    color: #fff;
+    font-size: 14px;
+}
+.featured-section-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: transparent;
+    border-radius: 50%;
+}
+.featured-section-btn:not(:last-child) {
+    margin-right: 5px;
+}
+.featured-section-pageCount {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    color: #fff;
+}
+.featured-section-pageCount:before {
+    content: "⸺⸺⸺⸺⸺⸺⸺⸺";
+    margin-right: 10px;
+}
+.featured-section-pageCount:after {
+    content: "⸺";
+    margin-left: 10px;
 }

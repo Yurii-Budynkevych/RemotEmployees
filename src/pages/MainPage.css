@@ -22,6 +22,8 @@
 }
 
 .featured-section {
+    position: relative;
     height: 800px;
+    padding-top: 20px;
     background-color: rgb(40, 38, 38);
 }
