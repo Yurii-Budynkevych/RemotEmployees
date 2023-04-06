@@ -3,9 +3,9 @@ import "./Header.css";
 export const Header = () => {
   return (
     <header className="page-header">
-      <div className="page-header-logo">
+      <a href="/" className="page-header-logo">
         <p className="page-header-logo__text">trppd _</p>
-      </div>
+      </a>
       <ul className="page-header-list">
         <li className="page-header-item">
           <a className="page-header-link" href="/">

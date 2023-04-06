@@ -2,12 +2,14 @@ import "./ScrollPanel.css";
 
 export const ScrollPanel = () => {
   return (
-    <aside>
-      <h1>Featured spots</h1>
-      <p>
-        Consequuntur eum alias quisquam dicta nihil ut, asperiores quasi
-        pariatur earum cumque.
+    <aside className="featured-section-aside">
+      <h1 className="featured-section-title">Featured spots</h1>
+      <p className="featured-section-text">
+        Consequuntur eum alias quisquam dicta nihil ut.
       </p>
+      <a className="featured-section-link" href="/">
+        View all
+      </a>
     </aside>
   );
 };
