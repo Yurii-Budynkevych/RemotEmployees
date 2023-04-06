@@ -23,7 +23,60 @@
 
 .featured-section {
     position: relative;
-    height: 800px;
     padding-top: 20px;
     background-color: rgb(40, 38, 38);
+}
+.featured-section-aside {
+    position: absolute;
+    top: 80px;
+    width: 200px;
+    padding-left: 100px;
+}
+.featured-section-title {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.featured-section-text {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 150px;
+}
+.featured-section-link {
+    position: relative;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 14px;
+}
+.featured-section-link:before {
+    content: "";
+
+    position: absolute;
+    top: 8px;
+    left: -100px;
+    width: 80px;
+    height: 1px;
+
+
+    background: #fff;
+}
+
+.about-section {
+    display: flex;
+    padding-top: 150px;
+    background-color: rgb(40, 38, 38);
+}
+.about-section-img {
+    max-width: 600px;
+    margin-right: 80px;
+}
+.about-section-title {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.about-section-text {
+    color: gray;
+    font-size: 14px;
+    margin-top: 30px;
 }

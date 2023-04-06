@@ -1,0 +1,32 @@
+.featured-cards-list{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.featured-cards-item:not(:last-child) {
+    margin-right: 20px;
+}
+.featured-cards-img {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.featured-cards-subtitle {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.featured-cards-text {
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.featured-cards-subtext {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.featured-cards-link {
+    color: gold;
+    font-size: 14px;
+}
