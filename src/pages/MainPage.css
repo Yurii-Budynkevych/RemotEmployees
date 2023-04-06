@@ -23,7 +23,7 @@
 
 .featured-section {
     position: relative;
-    padding-top: 20px;
+    padding-top: 40px;
     background-color: rgb(40, 38, 38);
 }
 .featured-section-aside {
@@ -64,6 +64,7 @@
 .about-section {
     display: flex;
     padding-top: 150px;
+    padding-bottom: 100px;
     background-color: rgb(40, 38, 38);
 }
 .about-section-img {
@@ -79,4 +80,10 @@
     color: gray;
     font-size: 14px;
     margin-top: 30px;
+}
+
+.editor-section {
+    position: relative;
+    padding-top: 40px;
+    background-color: rgb(40, 38, 38);
 }

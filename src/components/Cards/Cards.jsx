@@ -70,3 +70,7 @@ export const FeaturedCards = () => {
     </>
   );
 };
+
+export const EditorCards = () => {
+  return <></>;
+};
