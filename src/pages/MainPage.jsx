@@ -7,6 +7,7 @@ import {
   ScrollPanel,
   EditorPanel,
 } from "../components/ScrollPanel/ScrollPanel";
+import { CollectionCards } from "../components/Cards/Cards";
 
 export const MainPage = () => {
   return (
@@ -67,6 +68,17 @@ export const MainPage = () => {
           </p>
         </aside>
         <EditorPanel />
+      </section>
+
+      <section className="collections-section">
+        <h2 className="collections-section-title">Mountains collection</h2>
+        <p className="collections-section-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quae
+          hic doloribus id, fuga repellendus aliquam, autem, earum sit soluta
+          delectus cupiditate eveniet eum incidunt amet cum. Unde, fugiat
+          commodi?
+        </p>
+        <CollectionCards />
       </section>
     </>
   );

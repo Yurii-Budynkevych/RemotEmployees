@@ -8,7 +8,7 @@ import f from "../../img/f.jpg";
 // import g from "../../img/g.jpg";
 // import h from "../../img/h.jpg";
 // import j from "../../img/j.jpg";
-// import k from "../../img/k.jpg";
+import { ReadMoreBtn } from "../Btn/Btn";
 
 export const FeaturedCards = () => {
   return (
@@ -90,7 +90,6 @@ export const EditorCards = () => {
               src={s}
               alt="Nature"
             />
-
             <div className="editor-cards-thumb">
               <h4 className="editor-cards-subtitle">Hamburg</h4>
               <p className="editor-cards-text">Germany</p>
@@ -102,7 +101,6 @@ export const EditorCards = () => {
             </div>
           </div>
         </li>
-
         <li className="editor-cards-item">
           <div className="editor-cards-group">
             <div className="editor-cards-container with-margin">
@@ -112,7 +110,6 @@ export const EditorCards = () => {
                 src={d}
                 alt="Nature"
               />
-
               <div className="editor-cards-thumb">
                 <h4 className="editor-cards-subtitle">Kyoto</h4>
                 <p className="editor-cards-text">Japan</p>
@@ -128,7 +125,6 @@ export const EditorCards = () => {
                 src={f}
                 alt="Nature"
               />
-
               <div className="editor-cards-thumb">
                 <h4 className="editor-cards-subtitle">Lviv</h4>
                 <p className="editor-cards-text">Ukraine</p>
@@ -140,6 +136,55 @@ export const EditorCards = () => {
               </div>
             </div>
           </div>
+        </li>
+      </ul>
+    </>
+  );
+};
+
+export const CollectionCards = () => {
+  return (
+    <>
+      <ul className="collection-cards-list">
+        <li className="collection-cards-item">
+          <h3 className="collection-cards-title">Arara Mountain</h3>
+          <p className="collection-cards-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
+            quibusdam, id odio repellat consectetur architecto velit quo
+            tempora, doloribus optio cupiditate aperiam magnam. Quibusdam iste
+            possimus eius repellat ab natus? Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Sint quibusdam, id odio repellat
+            consectetur architecto velit quo tempora, doloribus optio cupiditate
+            aperiam magnam. Quibusdam iste possimus eius repellat ab natus?
+          </p>
+          <ReadMoreBtn />
+        </li>
+        <li className="collection-cards-item">
+          <h3 className="collection-cards-title">Brroa Mountain</h3>
+          <p className="collection-cards-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero alias
+            totam architecto possimus, molestiae delectus nulla perferendis,
+            laudantium blanditiis quae perspiciatis veniam. Ipsa rem tempore
+            officiis nemo aliquam dolorem nisi. Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Sint quibusdam, id odio repellat
+            consectetur architecto velit quo tempora, doloribus optio cupiditate
+            aperiam magnam. Quibusdam iste possimus eius repellat ab natus?
+          </p>
+          <ReadMoreBtn />
+        </li>
+        <li className="collection-cards-item">
+          <h3 className="collection-cards-title">Rada Mountain</h3>
+          <p className="collection-cards-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quas
+            doloremque voluptates debitis laudantium, hic aspernatur? Atque
+            adipisci nemo asperiores dolorum illum facere vitae commodi
+            necessitatibus, veritatis molestias, modi reprehenderit? Lorem ipsum
+            dolor sit amet consectetur, adipisicing elit. Sint quibusdam, id
+            odio repellat consectetur architecto velit quo tempora, doloribus
+            optio cupiditate aperiam magnam. Quibusdam iste possimus eius
+            repellat ab natus?
+          </p>
+          <ReadMoreBtn />
         </li>
       </ul>
     </>

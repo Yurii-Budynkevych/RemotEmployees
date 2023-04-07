@@ -17,8 +17,7 @@
 .hero-text {
     margin-bottom: 40px;
     color: #fff;
-    font-size: 18px;
-       
+    font-size: 18px;    
 }
 
 .featured-section {
@@ -85,5 +84,28 @@
 .editor-section {
     position: relative;
     padding-top: 40px;
+    padding-bottom: 40px;
     background-color: rgb(40, 38, 38);
+}
+
+.collections-section {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-image: url("../img/k.jpg");
+    background-size: cover;
+    border-bottom: 2px solid gray;
+}
+.collections-section-title {
+    margin-bottom: 40px;
+    margin-left: 200px;
+    color: #fff;
+    font-size: 44px;
+    font-weight: bolder;
+}
+.collections-section-text {
+    max-width: 400px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    color: #fff;
+    font-size: 18px;
 }

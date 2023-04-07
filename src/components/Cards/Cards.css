@@ -81,3 +81,19 @@
     font-size: 10px;
     margin-bottom: 5px;
 }
+
+
+.collection-cards-list{
+    margin-left: 200px;
+    color: #fff;
+}
+.collection-cards-list li+li {
+    margin-top: 60px;
+}
+.collection-cards-item {
+    padding-bottom: 80px;
+    border-bottom: 2px solid gray;
+}
+.collection-cards-text {
+    margin-bottom: 30px;
+}
