@@ -1,7 +1,7 @@
 import "./ScrollPanel.css";
 import { useState } from "react";
 import { AiFillCaretLeft, AiFillCaretRight } from "react-icons/ai";
-import { FeaturedCards } from "../Cards/Cards";
+import { FeaturedCards, EditorCards } from "../Cards/Cards";
 
 export const ScrollPanel = () => {
   const [pageCount, setpageCount] = useState(1);
@@ -71,7 +71,7 @@ export const EditorPanel = () => {
       </div>
       <p className="featured-section-pageCount">{pageCount}/2</p>
       {pageCount === 1 ? (
-        <FeaturedCards />
+        <EditorCards />
       ) : (
         <div className="featured-section-error">Sorry no content here yet</div>
       )}

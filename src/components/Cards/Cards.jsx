@@ -2,6 +2,13 @@ import "./Cards.css";
 import q from "../../img/q.jpg";
 import w from "../../img/w.jpg";
 import e from "../../img/e.jpg";
+import s from "../../img/s.jpg";
+import d from "../../img/d.jpg";
+import f from "../../img/f.jpg";
+// import g from "../../img/g.jpg";
+// import h from "../../img/h.jpg";
+// import j from "../../img/j.jpg";
+// import k from "../../img/k.jpg";
 
 export const FeaturedCards = () => {
   return (
@@ -72,5 +79,69 @@ export const FeaturedCards = () => {
 };
 
 export const EditorCards = () => {
-  return <></>;
+  return (
+    <>
+      <ul className="editor-cards-list">
+        <li className="editor-cards-item">
+          <div className="editor-cards-container">
+            <img
+              // srcset=""
+              className="editor-cards-img"
+              src={s}
+              alt="Nature"
+            />
+
+            <div className="editor-cards-thumb">
+              <h4 className="editor-cards-subtitle">Hamburg</h4>
+              <p className="editor-cards-text">Germany</p>
+              <p className="editor-cards-subtext">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Necessitatibus repellat iure dicta, consequatur esse laudantium
+                deserunt animi?
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <li className="editor-cards-item">
+          <div className="editor-cards-group">
+            <div className="editor-cards-container with-margin">
+              <img
+                // srcset=""
+                className="editor-cards-img"
+                src={d}
+                alt="Nature"
+              />
+
+              <div className="editor-cards-thumb">
+                <h4 className="editor-cards-subtitle">Kyoto</h4>
+                <p className="editor-cards-text">Japan</p>
+                <p className="editor-cards-subtext">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div className="editor-cards-container">
+              <img
+                // srcset=""
+                className="editor-cards-img"
+                src={f}
+                alt="Nature"
+              />
+
+              <div className="editor-cards-thumb">
+                <h4 className="editor-cards-subtitle">Lviv</h4>
+                <p className="editor-cards-text">Ukraine</p>
+                <p className="editor-cards-subtext">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Necessitatibus repellat iure dicta, consequatur esse
+                  laudantium deserunt animi?
+                </p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </>
+  );
 };
