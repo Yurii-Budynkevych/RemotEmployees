@@ -97,3 +97,8 @@
 .collection-cards-text {
     margin-bottom: 30px;
 }
+.collection-cards-thumb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

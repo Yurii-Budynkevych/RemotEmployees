@@ -5,9 +5,9 @@ import e from "../../img/e.jpg";
 import s from "../../img/s.jpg";
 import d from "../../img/d.jpg";
 import f from "../../img/f.jpg";
-// import g from "../../img/g.jpg";
-// import h from "../../img/h.jpg";
-// import j from "../../img/j.jpg";
+import g from "../../img/g.jpg";
+import h from "../../img/h.jpg";
+import j from "../../img/j.jpg";
 import { ReadMoreBtn } from "../Btn/Btn";
 
 export const FeaturedCards = () => {
@@ -147,44 +147,76 @@ export const CollectionCards = () => {
     <>
       <ul className="collection-cards-list">
         <li className="collection-cards-item">
-          <h3 className="collection-cards-title">Arara Mountain</h3>
-          <p className="collection-cards-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
-            quibusdam, id odio repellat consectetur architecto velit quo
-            tempora, doloribus optio cupiditate aperiam magnam. Quibusdam iste
-            possimus eius repellat ab natus? Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Sint quibusdam, id odio repellat
-            consectetur architecto velit quo tempora, doloribus optio cupiditate
-            aperiam magnam. Quibusdam iste possimus eius repellat ab natus?
-          </p>
-          <ReadMoreBtn />
+          <div className="collection-cards-thumb">
+            <div>
+              <h3 className="collection-cards-title">Vacexa Mountain</h3>
+              <p className="collection-cards-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                quas doloremque voluptates debitis laudantium, hic aspernatur?
+                Atque adipisci nemo asperiores dolorum illum facere vitae
+                commodi necessitatibus, veritatis molestias, modi reprehenderit?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
+                quibusdam, id odio repellat consectetur architecto velit quo
+                tempora, doloribus optio cupiditate aperiam magnam. Quibusdam
+                iste possimus eius repellat ab natus?
+              </p>
+              <ReadMoreBtn />
+            </div>
+            <img
+              className="collection-cards-img"
+              src={g}
+              alt="Nature"
+              width={300}
+            />
+          </div>
         </li>
         <li className="collection-cards-item">
-          <h3 className="collection-cards-title">Brroa Mountain</h3>
-          <p className="collection-cards-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero alias
-            totam architecto possimus, molestiae delectus nulla perferendis,
-            laudantium blanditiis quae perspiciatis veniam. Ipsa rem tempore
-            officiis nemo aliquam dolorem nisi. Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Sint quibusdam, id odio repellat
-            consectetur architecto velit quo tempora, doloribus optio cupiditate
-            aperiam magnam. Quibusdam iste possimus eius repellat ab natus?
-          </p>
-          <ReadMoreBtn />
+          <div className="collection-cards-thumb">
+            <div>
+              <h3 className="collection-cards-title">Tyria Mountain</h3>
+              <p className="collection-cards-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                quas doloremque voluptates debitis laudantium, hic aspernatur?
+                Atque adipisci nemo asperiores dolorum illum facere vitae
+                commodi necessitatibus, veritatis molestias, modi reprehenderit?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
+                quibusdam, id odio repellat consectetur architecto velit quo
+                tempora, doloribus optio cupiditate aperiam magnam. Quibusdam
+                iste possimus eius repellat ab natus?
+              </p>
+              <ReadMoreBtn />
+            </div>
+            <img
+              className="collection-cards-img"
+              src={h}
+              alt="Nature"
+              width={300}
+            />
+          </div>
         </li>
         <li className="collection-cards-item">
-          <h3 className="collection-cards-title">Rada Mountain</h3>
-          <p className="collection-cards-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quas
-            doloremque voluptates debitis laudantium, hic aspernatur? Atque
-            adipisci nemo asperiores dolorum illum facere vitae commodi
-            necessitatibus, veritatis molestias, modi reprehenderit? Lorem ipsum
-            dolor sit amet consectetur, adipisicing elit. Sint quibusdam, id
-            odio repellat consectetur architecto velit quo tempora, doloribus
-            optio cupiditate aperiam magnam. Quibusdam iste possimus eius
-            repellat ab natus?
-          </p>
-          <ReadMoreBtn />
+          <div className="collection-cards-thumb">
+            <div>
+              <h3 className="collection-cards-title">Rada Mountain</h3>
+              <p className="collection-cards-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                quas doloremque voluptates debitis laudantium, hic aspernatur?
+                Atque adipisci nemo asperiores dolorum illum facere vitae
+                commodi necessitatibus, veritatis molestias, modi reprehenderit?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
+                quibusdam, id odio repellat consectetur architecto velit quo
+                tempora, doloribus optio cupiditate aperiam magnam. Quibusdam
+                iste possimus eius repellat ab natus?
+              </p>
+              <ReadMoreBtn />
+            </div>
+            <img
+              className="collection-cards-img"
+              src={j}
+              alt="Nature"
+              width={300}
+            />
+          </div>
         </li>
       </ul>
     </>
