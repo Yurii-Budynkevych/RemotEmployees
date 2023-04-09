@@ -8,6 +8,8 @@ import {
   EditorPanel,
 } from "../components/ScrollPanel/ScrollPanel";
 import { CollectionCards } from "../components/Cards/Cards";
+import { SubscribeForm } from "../components/Form/Form";
+import { Footer } from "../components/Footer/Footer";
 
 export const MainPage = () => {
   return (
@@ -80,6 +82,16 @@ export const MainPage = () => {
         </p>
         <CollectionCards />
       </section>
+
+      <section className="subscribe-section">
+        <div className="subscribe-section-box">
+          <h3 className="subscribe-section-title">
+            Subscribe for super photos
+          </h3>
+          <SubscribeForm />
+        </div>
+      </section>
+      <Footer />
     </>
   );
 };

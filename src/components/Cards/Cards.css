@@ -92,7 +92,12 @@
 }
 .collection-cards-item {
     padding-bottom: 80px;
+}
+.collection-cards-item:not(:last-child) {
     border-bottom: 2px solid gray;
+}
+.collection-cards-img {
+    max-width: 100%;
 }
 .collection-cards-text {
     margin-bottom: 30px;
